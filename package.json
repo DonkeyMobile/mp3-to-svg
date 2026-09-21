@@ -1,6 +1,6 @@
 {
     "name": "mp3-to-svg",
-    "version": "3.0.3",
+    "version": "3.0.4",
     "description": "Takes in an audio file and outputs a SVG waveform",
     "main": "dist/index.js",
     "babel": {
@@ -30,7 +30,7 @@
         "mp3-to-svg": "./dist/cli.js"
     },
     "engines": {
-        "node": ">=20.0.0"
+        "node": ">=22.0.0"
     },
     "repository": {
         "type": "git",
