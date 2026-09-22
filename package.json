@@ -1,6 +1,6 @@
 {
     "name": "mp3-to-svg",
-    "version": "3.0.0",
+    "version": "3.0.4",
     "description": "Takes in an audio file and outputs a SVG waveform",
     "main": "dist/index.js",
     "babel": {
@@ -15,7 +15,7 @@
         "extends": "airbnb/base"
     },
     "scripts": {
-        "requirements-check": "node check-version.js",
+        "requirements-check": "node check-version.mjs",
         "postinstall": "npm run requirements-check",
         "prepare": "npm run build",
         "lint": "eslint src/**",
@@ -30,7 +30,7 @@
         "mp3-to-svg": "./dist/cli.js"
     },
     "engines": {
-        "node": ">=18.0.0 <23.0.0"
+        "node": ">=22.0.0"
     },
     "repository": {
         "type": "git",
